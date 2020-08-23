@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="StockUp.MainPage">
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:controls="clr-namespace:StockUp.Controls" x:Class="StockUp.MainPage" xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" ios:Page.UseSafeArea="True">
+    <StackLayout >
+        <Frame BackgroundColor="#1576F3" Padding="24" CornerRadius="0">
             <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" />
         </Frame>
         <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10" />
@@ -16,5 +16,8 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+        <!-- Google Banner Ad -->
+        <controls:AdmobControl VerticalOptions="EndAndExpand"></controls:AdmobControl>
+        <!-- Google Banner Ad -->
     </StackLayout>
 </ContentPage>
