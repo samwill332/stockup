@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="StockUp.Pages.LoginPage" BackgroundColor="#000000">
+    <StackLayout HorizontalOptions="Fill" BackgroundColor="#000000" Orientation="Vertical" VerticalOptions="Center" Spacing="20" Padding="25,0">
+        <Entry Placeholder="Email" HorizontalTextAlignment="Center" Keyboard="Email" />
+        <Entry Placeholder="Password" HorizontalTextAlignment="Center" IsPassword="True" Keyboard="Default" />
+        <Button Text="Login" BackgroundColor="#4F9DFF" TextColor="#FFFFFF" />
+    </StackLayout>
+</ContentPage>

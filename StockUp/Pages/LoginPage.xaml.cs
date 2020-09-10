@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
-namespace StockUp
+namespace StockUp.Pages
 {
-    public partial class TestPage : ContentPage
+    public partial class LoginPage : ContentPage
     {
-        public TestPage()
+        public LoginPage()
         {
             InitializeComponent();
         }
